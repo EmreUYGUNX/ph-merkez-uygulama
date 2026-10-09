@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>PH Merkez</title>
+<meta name="description" content="PH Merkez: bir YouTube kanalının sahibine ait kişisel yönetim aracı. A personal management tool for a YouTube channel owner.">
+<style>
+  :root { --zemin:#f6f4ef; --kagit:#ffffff; --murekkep:#1c1e22; --soluk:#5a5f6b; --cizgi:#e3dfd5; --vurgu:#0d6a4e; color-scheme:light; }
+  @media (prefers-color-scheme: dark) {
+    :root { --zemin:#111316; --kagit:#181b1f; --murekkep:#ebe9e3; --soluk:#a2a7b1; --cizgi:#2a2e35; --vurgu:#5fc79c; color-scheme:dark; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--zemin); color:var(--murekkep); font:17px/1.65 "Segoe UI", system-ui, -apple-system, "Noto Sans", sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:56px 20px 72px; }
+  .etiket { display:inline-block; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--soluk);
+            border:1px solid var(--cizgi); border-radius:999px; padding:4px 12px; margin:0 0 18px; }
+  h1 { font-size:40px; line-height:1.1; margin:0 0 10px; letter-spacing:-.02em; }
+  .alt { color:var(--soluk); margin:0 0 26px; }
+  nav { display:flex; flex-wrap:wrap; gap:8px 18px; font-size:15px; margin:0 0 34px; }
+  a { color:var(--vurgu); text-decoration:none; border-bottom:1px solid transparent; }
+  a:hover { border-bottom-color:currentColor; }
+  section { background:var(--kagit); border:1px solid var(--cizgi); border-radius:18px; padding:28px 28px 18px; margin:0 0 22px; }
+  h2 { font-size:22px; margin:0 0 12px; letter-spacing:-.01em; }
+  ul { padding-left:20px; margin:0 0 14px; }
+  li { margin:0 0 6px; }
+  footer { color:var(--soluk); font-size:14px; margin-top:30px; }
+  @media (max-width:520px) {
+    main { padding:36px 16px 56px; }
+    h1 { font-size:32px; }
+    section { padding:22px 18px 12px; border-radius:14px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <p class="etiket">Kişisel araç · Personal tool</p>
+  <h1>PH Merkez</h1>
+  <p class="alt">Bir YouTube kanalının sahibine ait yönetim aracı.<br>A management tool for a YouTube channel owner.</p>
+  <nav><a href="#tr">Türkçe</a><a href="#en">English</a><a href="gizlilik.html">Gizlilik politikası · Privacy policy</a></nav>
+
+  <section id="tr" lang="tr">
+    <h2>Bu uygulama ne yapar?</h2>
+    <p>PH Merkez, bir YouTube kanalının sahibinin kendi bilgisayarında çalışan kişisel bir araçtır. Başka kullanıcılara sunulmaz;
+       yalnız sahibinin kendi kanalında ve sahibinin verdiği izinle çalışır.</p>
+    <ul>
+      <li>Kanalın analiz sayılarını okur: izlenme, izlenme süresi, kazanılan abone, gösterim ve gösterimlerin tıklama oranı.</li>
+      <li>Kanal açıklamasını ve anahtar kelimelerini, sahibi onayladığında günceller.</li>
+      <li>Sahibinin hazırladığı videoyu özel olarak yükler, seçilen saatte yayına açılacak şekilde zamanlar ve kapağını koyar.</li>
+    </ul>
+    <p>Başka kişilerin verisine erişmez. Ayrıntılar <a href="gizlilik.html#tr">gizlilik politikasında</a>.</p>
+  </section>
+
+  <section id="en" lang="en">
+    <h2>What does this app do?</h2>
+    <p>PH Merkez is a personal tool that runs on the computer of a YouTube channel owner. It is not offered to other users;
+       it works only on the owner's own channel and only with the owner's permission.</p>
+    <ul>
+      <li>Reads the channel's analytics: views, watch time, subscribers gained, impressions and impressions click-through rate.</li>
+      <li>Updates the channel description and keywords when the owner approves.</li>
+      <li>Uploads a video prepared by the owner as private, schedules it to go public at a chosen time and sets its thumbnail.</li>
+    </ul>
+    <p>It does not access anyone else's data. Details are in the <a href="gizlilik.html#en">privacy policy</a>.</p>
+  </section>
+
+  <footer>PH Merkez · <a href="gizlilik.html">Gizlilik politikası · Privacy policy</a></footer>
+</main>
+</body>
+</html>
